@@ -4,7 +4,6 @@ const useHttp = (requestConfig, applyData) => {
 
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
- 
 
   const sendRequest = async (taskText) => {
     setIsLoading(true);
